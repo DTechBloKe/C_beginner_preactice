@@ -23,7 +23,7 @@
 	printf("Bio score (input format should be 0 - 100)?\n");
         scanf(" %d", &Bio);
 
-	gradeAverage= (Math+Eng+Comp+Phys+Bio+Chem)/6;
+	gradeAverage= (Math+Eng+Comp+Phys+Bio+Chem)/6.0;
 	printf("Your average score is %.3f\a", gradeAverage);
 	
 	//add percentage later
